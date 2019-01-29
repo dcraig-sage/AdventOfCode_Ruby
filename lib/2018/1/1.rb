@@ -1,3 +1,6 @@
+##
+# Find the result of adding all the frequency changes in the input file.
+
 input_file = __dir__ + '/input'
 
 freq = 0
