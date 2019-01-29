@@ -24,17 +24,9 @@ inputs.each do |i|
         end
     end
 
-    if @has_2
-        $has_2_letters += 1
-    end
-
-    if @has_3
-        $has_3_letters += 1
-    end
+    $has_2_letters +=1 if @has_2
+    $has_3_letters +=1 if @has_3
 end
-
-puts $has_2_letters
-puts $has_3_letters
 
 checksum = $has_2_letters * $has_3_letters
 puts checksum
